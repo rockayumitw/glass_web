@@ -6571,8 +6571,8 @@ main h2 {
       line-height: 30px !important; } }
   @media (min-width: 575.98px) {
     main h2 {
-      font-size: 20px !important;
-      line-height: 30px !important; } }
+      font-size: 32px !important;
+      line-height: 48px !important; } }
   @media (min-width: 767.98px) {
     main h2 {
       font-size: 32px !important;
@@ -6599,8 +6599,8 @@ main h3 {
       line-height: 24px !important; } }
   @media (min-width: 575.98px) {
     main h3 {
-      font-size: 16px !important;
-      line-height: 24px !important; } }
+      font-size: 24px !important;
+      line-height: 36px !important; } }
   @media (min-width: 767.98px) {
     main h3 {
       font-size: 24px !important;
