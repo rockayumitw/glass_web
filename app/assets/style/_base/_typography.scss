@@ -15,41 +15,43 @@ $h1-font-sizes: (  // 大標 | slider | slogan  : 32pt
   xl : 48px
 );
 
-// $h2-font-sizes: ( // slider | title  : 16pt
+$h2-font-sizes: ( // slider | title  : 16pt
+  null : 16px,
+  xxs: 20px,
+  xs : 32px,
+  sm : 32px,
+  md : 42px,
+  lg : 42px,
+  xl : 42px
+);
+
+$h3-font-sizes: ( //main - title
+  null : 20pt,
+  xxs: 16px,
+  xs : 24px,
+  sm : 24px,
+  md : 32px,
+  lg : 32px,
+  xl : 32px
+);
+
+// $h4-font-sizes: ( //item - title card
 //   null : 16px,
-//   xs : 14px,
+//   xs : 16px,
 //   sm : 18px,
 //   md : 18px,
-//   lg : 22px,
-//   xl : 22px
+//   lg : 20px,
+//   xl : 20px
 // );
 
-// $h3-font-sizes: ( //main - title
-//   null : 20pt,
-//   xs : 4.7vmin,
-//   sm : 4.7vmin,
-//   md : 15pt,
-//   lg : 18pt,
-//   xl : 22.7pt
+// $h5-font-sizes: (
+//   null : 16px,
+//   xs : 14px,
+//   sm : 16px,
+//   md : 16px,
+//   lg : 18px,
+//   xl : 18px
 // );
-
-$h4-font-sizes: ( //item - title card
-  null : 16px,
-  xs : 16px,
-  sm : 18px,
-  md : 18px,
-  lg : 20px,
-  xl : 20px
-);
-
-$h5-font-sizes: (
-  null : 16px,
-  xs : 14px,
-  sm : 16px,
-  md : 16px,
-  lg : 18px,
-  xl : 18px
-);
 
 
 // font-size: ($sizeValue) + px;
