@@ -41,16 +41,16 @@ $footer-group:(
 
 // slider -圖片
 $banner-group:(
-    'slider-home-image-pc':'/assets/images/banner.png',
-    'slider-home-image-sm':'/assets/images/banner-sm.png',
-    'slider-inner-image-1':'/assets/images/banner-1.png',
-    'slider-inner-image-2':'/assets/images/banner-2.png',
-    'slider-inner-location-banner':'/assets/images/qa.png',
+    'slider-home-image-pc':'./assets/images/banner.png',
+    'slider-home-image-sm':'./assets/images/banner-sm.png',
+    'slider-inner-image-1':'./assets/images/banner-1.png',
+    'slider-inner-image-2':'./assets/images/banner-2.png',
+    'slider-inner-location-banner':'./assets/images/qa.png',
 );
 
 // 首頁
 $index-group:(
-    'section-cooperation-product':'/assets/images/bg.png',
+    'section-cooperation-product':'./assets/images/bg.png',
     'slider-text-color':#650300,
     'h1-title-color':#650300,
     'item-feature-title-color':#650300,
@@ -85,28 +85,28 @@ $inner-group:(
 
 // inner-page
 $inner-pic:(
-    'location-pic-1':'/assets/images/locate1.jpeg',
-    'location-pic-2':'/assets/images/locate2.jpg',
-    'location-pic-3':'/assets/images/locate3.jpg',
-    'location-pic-4':'/assets/images/locate4.jpg',
-    'location-pic-5':'/assets/images/locate5.jpg',
-    'blog-1':'/assets/images/blog-1.png',
-    'blog-2':'/assets/images/blog-2.png',
-    'blog-3':'/assets/images/blog-3.png',
-    'blog-4':'/assets/images/blog-4.png',
-    'blog-5':'/assets/images/blog-5.png',
-    'product-1':'/assets/images/products-1.png',
-    'product-2':'/assets/images/products-2.png',
-    'product-3':'/assets/images/products-3.png',
-    'product-4':'/assets/images/products-4.png',
-    'product-5':'/assets/images/products-5.jpg',
-    'product-6':'/assets/images/products-6.jpg',
-    'product-7':'/assets/images/products-7.jpg',
-    'product-8':'/assets/images/products-8.jpg',
-    'product-9':'/assets/images/products-9.jpg',
-    'product-10':'/assets/images/products-10.jpg',
-    'product-11':'/assets/images/products-11.jpg',
-    'product-12':'/assets/images/products-12.jpg',
+    'location-pic-1':'./assets/images/locate1.jpeg',
+    'location-pic-2':'./assets/images/locate2.jpg',
+    'location-pic-3':'./assets/images/locate3.jpg',
+    'location-pic-4':'./assets/images/locate4.jpg',
+    'location-pic-5':'./assets/images/locate5.jpg',
+    'blog-1':'./assets/images/blog-1.png',
+    'blog-2':'./assets/images/blog-2.png',
+    'blog-3':'./assets/images/blog-3.png',
+    'blog-4':'./assets/images/blog-4.png',
+    'blog-5':'./assets/images/blog-5.png',
+    'product-1':'./assets/images/products-1.png',
+    'product-2':'./assets/images/products-2.png',
+    'product-3':'./assets/images/products-3.png',
+    'product-4':'./assets/images/products-4.png',
+    'product-5':'./assets/images/products-5.jpg',
+    'product-6':'./assets/images/products-6.jpg',
+    'product-7':'./assets/images/products-7.jpg',
+    'product-8':'./assets/images/products-8.jpg',
+    'product-9':'./assets/images/products-9.jpg',
+    'product-10':'./assets/images/products-10.jpg',
+    'product-11':'./assets/images/products-11.jpg',
+    'product-12':'./assets/images/products-12.jpg',
 );
 
 // 共用 -卡片
