@@ -7634,7 +7634,7 @@ footer {
         background-repeat: no-repeat;
         background-position: center center; }
       .section-products .item-product-list .item-product .item-pic.product-7 {
-        background-image: url("./assets/images/products-7.jpg");
+        background-image: url("/glass_web/dist/assets/images/products-7.jpg");
         height: 164px;
         background-size: cover;
         background-repeat: no-repeat;
@@ -7977,14 +7977,14 @@ footer {
             background-repeat: no-repeat;
             background-position: center center; } }
       .section-location .location-list li.item-location .card-pic.product-7 {
-        background-image: url("./assets/images/products-7.jpg");
+        background-image: url("/glass_web/dist/assets/images/products-7.jpg");
         height: 224px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
         @media (max-width: 991.98px) {
           .section-location .location-list li.item-location .card-pic.product-7 {
-            background-image: url("./assets/images/products-7.jpg");
+            background-image: url("/glass_web/dist/assets/images/products-7.jpg");
             height: 164px;
             background-size: cover;
             background-repeat: no-repeat;
@@ -8562,19 +8562,19 @@ footer {
       -moz-transition: all 1s;
       -ms-transition: all 1s;
       -o-transition: all 1s;
-      background-image: url("./assets/images/products-7.jpg");
+      background-image: url("/glass_web/dist/assets/images/products-7.jpg");
       background-size: 100%;
       background-repeat: no-repeat;
       background-position: center center; }
       @media (max-width: 1199.98px) {
         .section-news .item-pic.product-7 {
-          background-image: url("./assets/images/products-7.jpg");
+          background-image: url("/glass_web/dist/assets/images/products-7.jpg");
           background-size: 130%;
           background-repeat: no-repeat;
           background-position: center center; } }
       @media (max-width: 991.98px) {
         .section-news .item-pic.product-7 {
-          background-image: url("./assets/images/products-7.jpg");
+          background-image: url("/glass_web/dist/assets/images/products-7.jpg");
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center center; } }
