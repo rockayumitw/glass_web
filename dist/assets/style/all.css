@@ -6916,12 +6916,12 @@ footer {
     width: 48%;
     width: calc(100% / 2 - 15px); }
     .inner-page .product-slider .item-slider.__slider-1 {
-      background-image: url("./assets/images/banner-1.png");
+      background-image: url("/glass_web/dist/assets/images/banner-1.png");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center; }
     .inner-page .product-slider .item-slider.__slider-2 {
-      background-image: url("./assets/images/banner-2.png");
+      background-image: url("/glass_web/dist/assets/images/banner-2.png");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center; }
@@ -6938,7 +6938,7 @@ footer {
         min-height: 145px; } }
 
 .inner-page .sub-slider {
-  background-image: url("./assets/images/qa.png");
+  background-image: url("/glass_web/dist/assets/images/qa.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; }
@@ -7252,7 +7252,7 @@ footer {
 
 .carousel {
   overflow: hidden;
-  background: url("./assets/images/banner.png");
+  background: url("/glass_web/dist/assets/images/banner.png");
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -7407,7 +7407,7 @@ footer {
         color: #fff; } }
 
 .home-page .section-cooperation-product {
-  background-image: url("./assets/images/bg.png");
+  background-image: url("/glass_web/dist/assets/images/bg.png");
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -7538,97 +7538,97 @@ footer {
         .section-products .item-product-list .item-product {
           margin-bottom: 32px; } }
       .section-products .item-product-list .item-product .item-pic.location-pic-1 {
-        background-image: url("./assets/images/locate1.jpeg");
+        background-image: url("/glass_web/dist/assets/images/locate1.jpeg");
         height: 164px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
       .section-products .item-product-list .item-product .item-pic.location-pic-2 {
-        background-image: url("./assets/images/locate2.jpg");
+        background-image: url("/glass_web/dist/assets/images/locate2.jpg");
         height: 164px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
       .section-products .item-product-list .item-product .item-pic.location-pic-3 {
-        background-image: url("./assets/images/locate3.jpg");
+        background-image: url("/glass_web/dist/assets/images/locate3.jpg");
         height: 164px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
       .section-products .item-product-list .item-product .item-pic.location-pic-4 {
-        background-image: url("./assets/images/locate4.jpg");
+        background-image: url("/glass_web/dist/assets/images/locate4.jpg");
         height: 164px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
       .section-products .item-product-list .item-product .item-pic.location-pic-5 {
-        background-image: url("./assets/images/locate5.jpg");
+        background-image: url("/glass_web/dist/assets/images/locate5.jpg");
         height: 164px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
       .section-products .item-product-list .item-product .item-pic.blog-1 {
-        background-image: url("./assets/images/blog-1.png");
+        background-image: url("/glass_web/dist/assets/images/blog-1.png");
         height: 164px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
       .section-products .item-product-list .item-product .item-pic.blog-2 {
-        background-image: url("./assets/images/blog-2.png");
+        background-image: url("/glass_web/dist/assets/images/blog-2.png");
         height: 164px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
       .section-products .item-product-list .item-product .item-pic.blog-3 {
-        background-image: url("./assets/images/blog-3.png");
+        background-image: url("/glass_web/dist/assets/images/blog-3.png");
         height: 164px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
       .section-products .item-product-list .item-product .item-pic.blog-4 {
-        background-image: url("./assets/images/blog-4.png");
+        background-image: url("/glass_web/dist/assets/images/blog-4.png");
         height: 164px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
       .section-products .item-product-list .item-product .item-pic.blog-5 {
-        background-image: url("./assets/images/blog-5.png");
+        background-image: url("/glass_web/dist/assets/images/blog-5.png");
         height: 164px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
       .section-products .item-product-list .item-product .item-pic.product-1 {
-        background-image: url("./assets/images/products-1.png");
+        background-image: url("/glass_web/dist/assets/images/products-1.png");
         height: 164px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
       .section-products .item-product-list .item-product .item-pic.product-2 {
-        background-image: url("./assets/images/products-2.png");
+        background-image: url("/glass_web/dist/assets/images/products-2.png");
         height: 164px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
       .section-products .item-product-list .item-product .item-pic.product-3 {
-        background-image: url("./assets/images/products-3.png");
+        background-image: url("/glass_web/dist/assets/images/products-3.png");
         height: 164px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
       .section-products .item-product-list .item-product .item-pic.product-4 {
-        background-image: url("./assets/images/products-4.png");
+        background-image: url("/glass_web/dist/assets/images/products-4.png");
         height: 164px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
       .section-products .item-product-list .item-product .item-pic.product-5 {
-        background-image: url("./assets/images/products-5.jpg");
+        background-image: url("/glass_web/dist/assets/images/products-5.jpg");
         height: 164px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
       .section-products .item-product-list .item-product .item-pic.product-6 {
-        background-image: url("./assets/images/products-6.jpg");
+        background-image: url("/glass_web/dist/assets/images/products-6.jpg");
         height: 164px;
         background-size: cover;
         background-repeat: no-repeat;
@@ -7640,31 +7640,31 @@ footer {
         background-repeat: no-repeat;
         background-position: center center; }
       .section-products .item-product-list .item-product .item-pic.product-8 {
-        background-image: url("./assets/images/products-8.jpg");
+        background-image: url("/glass_web/dist/assets/images/products-8.jpg");
         height: 164px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
       .section-products .item-product-list .item-product .item-pic.product-9 {
-        background-image: url("./assets/images/products-9.jpg");
+        background-image: url("/glass_web/dist/assets/images/products-9.jpg");
         height: 164px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
       .section-products .item-product-list .item-product .item-pic.product-10 {
-        background-image: url("./assets/images/products-10.jpg");
+        background-image: url("/glass_web/dist/assets/images/products-10.jpg");
         height: 164px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
       .section-products .item-product-list .item-product .item-pic.product-11 {
-        background-image: url("./assets/images/products-11.jpg");
+        background-image: url("/glass_web/dist/assets/images/products-11.jpg");
         height: 164px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
       .section-products .item-product-list .item-product .item-pic.product-12 {
-        background-image: url("./assets/images/products-12.jpg");
+        background-image: url("/glass_web/dist/assets/images/products-12.jpg");
         height: 164px;
         background-size: cover;
         background-repeat: no-repeat;
@@ -7769,209 +7769,209 @@ footer {
           width: 100%;
           margin: 0 auto 32px auto; } }
       .section-location .location-list li.item-location .card-pic.location-pic-1 {
-        background-image: url("./assets/images/locate1.jpeg");
+        background-image: url("/glass_web/dist/assets/images/locate1.jpeg");
         height: 224px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
         @media (max-width: 991.98px) {
           .section-location .location-list li.item-location .card-pic.location-pic-1 {
-            background-image: url("./assets/images/locate1.jpeg");
+            background-image: url("/glass_web/dist/assets/images/locate1.jpeg");
             height: 164px;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center; } }
       .section-location .location-list li.item-location .card-pic.location-pic-2 {
-        background-image: url("./assets/images/locate2.jpg");
+        background-image: url("/glass_web/dist/assets/images/locate2.jpg");
         height: 224px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
         @media (max-width: 991.98px) {
           .section-location .location-list li.item-location .card-pic.location-pic-2 {
-            background-image: url("./assets/images/locate2.jpg");
+            background-image: url("/glass_web/dist/assets/images/locate2.jpg");
             height: 164px;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center; } }
       .section-location .location-list li.item-location .card-pic.location-pic-3 {
-        background-image: url("./assets/images/locate3.jpg");
+        background-image: url("/glass_web/dist/assets/images/locate3.jpg");
         height: 224px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
         @media (max-width: 991.98px) {
           .section-location .location-list li.item-location .card-pic.location-pic-3 {
-            background-image: url("./assets/images/locate3.jpg");
+            background-image: url("/glass_web/dist/assets/images/locate3.jpg");
             height: 164px;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center; } }
       .section-location .location-list li.item-location .card-pic.location-pic-4 {
-        background-image: url("./assets/images/locate4.jpg");
+        background-image: url("/glass_web/dist/assets/images/locate4.jpg");
         height: 224px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
         @media (max-width: 991.98px) {
           .section-location .location-list li.item-location .card-pic.location-pic-4 {
-            background-image: url("./assets/images/locate4.jpg");
+            background-image: url("/glass_web/dist/assets/images/locate4.jpg");
             height: 164px;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center; } }
       .section-location .location-list li.item-location .card-pic.location-pic-5 {
-        background-image: url("./assets/images/locate5.jpg");
+        background-image: url("/glass_web/dist/assets/images/locate5.jpg");
         height: 224px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
         @media (max-width: 991.98px) {
           .section-location .location-list li.item-location .card-pic.location-pic-5 {
-            background-image: url("./assets/images/locate5.jpg");
+            background-image: url("/glass_web/dist/assets/images/locate5.jpg");
             height: 164px;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center; } }
       .section-location .location-list li.item-location .card-pic.blog-1 {
-        background-image: url("./assets/images/blog-1.png");
+        background-image: url("/glass_web/dist/assets/images/blog-1.png");
         height: 224px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
         @media (max-width: 991.98px) {
           .section-location .location-list li.item-location .card-pic.blog-1 {
-            background-image: url("./assets/images/blog-1.png");
+            background-image: url("/glass_web/dist/assets/images/blog-1.png");
             height: 164px;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center; } }
       .section-location .location-list li.item-location .card-pic.blog-2 {
-        background-image: url("./assets/images/blog-2.png");
+        background-image: url("/glass_web/dist/assets/images/blog-2.png");
         height: 224px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
         @media (max-width: 991.98px) {
           .section-location .location-list li.item-location .card-pic.blog-2 {
-            background-image: url("./assets/images/blog-2.png");
+            background-image: url("/glass_web/dist/assets/images/blog-2.png");
             height: 164px;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center; } }
       .section-location .location-list li.item-location .card-pic.blog-3 {
-        background-image: url("./assets/images/blog-3.png");
+        background-image: url("/glass_web/dist/assets/images/blog-3.png");
         height: 224px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
         @media (max-width: 991.98px) {
           .section-location .location-list li.item-location .card-pic.blog-3 {
-            background-image: url("./assets/images/blog-3.png");
+            background-image: url("/glass_web/dist/assets/images/blog-3.png");
             height: 164px;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center; } }
       .section-location .location-list li.item-location .card-pic.blog-4 {
-        background-image: url("./assets/images/blog-4.png");
+        background-image: url("/glass_web/dist/assets/images/blog-4.png");
         height: 224px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
         @media (max-width: 991.98px) {
           .section-location .location-list li.item-location .card-pic.blog-4 {
-            background-image: url("./assets/images/blog-4.png");
+            background-image: url("/glass_web/dist/assets/images/blog-4.png");
             height: 164px;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center; } }
       .section-location .location-list li.item-location .card-pic.blog-5 {
-        background-image: url("./assets/images/blog-5.png");
+        background-image: url("/glass_web/dist/assets/images/blog-5.png");
         height: 224px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
         @media (max-width: 991.98px) {
           .section-location .location-list li.item-location .card-pic.blog-5 {
-            background-image: url("./assets/images/blog-5.png");
+            background-image: url("/glass_web/dist/assets/images/blog-5.png");
             height: 164px;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center; } }
       .section-location .location-list li.item-location .card-pic.product-1 {
-        background-image: url("./assets/images/products-1.png");
+        background-image: url("/glass_web/dist/assets/images/products-1.png");
         height: 224px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
         @media (max-width: 991.98px) {
           .section-location .location-list li.item-location .card-pic.product-1 {
-            background-image: url("./assets/images/products-1.png");
+            background-image: url("/glass_web/dist/assets/images/products-1.png");
             height: 164px;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center; } }
       .section-location .location-list li.item-location .card-pic.product-2 {
-        background-image: url("./assets/images/products-2.png");
+        background-image: url("/glass_web/dist/assets/images/products-2.png");
         height: 224px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
         @media (max-width: 991.98px) {
           .section-location .location-list li.item-location .card-pic.product-2 {
-            background-image: url("./assets/images/products-2.png");
+            background-image: url("/glass_web/dist/assets/images/products-2.png");
             height: 164px;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center; } }
       .section-location .location-list li.item-location .card-pic.product-3 {
-        background-image: url("./assets/images/products-3.png");
+        background-image: url("/glass_web/dist/assets/images/products-3.png");
         height: 224px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
         @media (max-width: 991.98px) {
           .section-location .location-list li.item-location .card-pic.product-3 {
-            background-image: url("./assets/images/products-3.png");
+            background-image: url("/glass_web/dist/assets/images/products-3.png");
             height: 164px;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center; } }
       .section-location .location-list li.item-location .card-pic.product-4 {
-        background-image: url("./assets/images/products-4.png");
+        background-image: url("/glass_web/dist/assets/images/products-4.png");
         height: 224px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
         @media (max-width: 991.98px) {
           .section-location .location-list li.item-location .card-pic.product-4 {
-            background-image: url("./assets/images/products-4.png");
+            background-image: url("/glass_web/dist/assets/images/products-4.png");
             height: 164px;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center; } }
       .section-location .location-list li.item-location .card-pic.product-5 {
-        background-image: url("./assets/images/products-5.jpg");
+        background-image: url("/glass_web/dist/assets/images/products-5.jpg");
         height: 224px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
         @media (max-width: 991.98px) {
           .section-location .location-list li.item-location .card-pic.product-5 {
-            background-image: url("./assets/images/products-5.jpg");
+            background-image: url("/glass_web/dist/assets/images/products-5.jpg");
             height: 164px;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center; } }
       .section-location .location-list li.item-location .card-pic.product-6 {
-        background-image: url("./assets/images/products-6.jpg");
+        background-image: url("/glass_web/dist/assets/images/products-6.jpg");
         height: 224px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
         @media (max-width: 991.98px) {
           .section-location .location-list li.item-location .card-pic.product-6 {
-            background-image: url("./assets/images/products-6.jpg");
+            background-image: url("/glass_web/dist/assets/images/products-6.jpg");
             height: 164px;
             background-size: cover;
             background-repeat: no-repeat;
@@ -7990,66 +7990,66 @@ footer {
             background-repeat: no-repeat;
             background-position: center center; } }
       .section-location .location-list li.item-location .card-pic.product-8 {
-        background-image: url("./assets/images/products-8.jpg");
+        background-image: url("/glass_web/dist/assets/images/products-8.jpg");
         height: 224px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
         @media (max-width: 991.98px) {
           .section-location .location-list li.item-location .card-pic.product-8 {
-            background-image: url("./assets/images/products-8.jpg");
+            background-image: url("/glass_web/dist/assets/images/products-8.jpg");
             height: 164px;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center; } }
       .section-location .location-list li.item-location .card-pic.product-9 {
-        background-image: url("./assets/images/products-9.jpg");
+        background-image: url("/glass_web/dist/assets/images/products-9.jpg");
         height: 224px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
         @media (max-width: 991.98px) {
           .section-location .location-list li.item-location .card-pic.product-9 {
-            background-image: url("./assets/images/products-9.jpg");
+            background-image: url("/glass_web/dist/assets/images/products-9.jpg");
             height: 164px;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center; } }
       .section-location .location-list li.item-location .card-pic.product-10 {
-        background-image: url("./assets/images/products-10.jpg");
+        background-image: url("/glass_web/dist/assets/images/products-10.jpg");
         height: 224px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
         @media (max-width: 991.98px) {
           .section-location .location-list li.item-location .card-pic.product-10 {
-            background-image: url("./assets/images/products-10.jpg");
+            background-image: url("/glass_web/dist/assets/images/products-10.jpg");
             height: 164px;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center; } }
       .section-location .location-list li.item-location .card-pic.product-11 {
-        background-image: url("./assets/images/products-11.jpg");
+        background-image: url("/glass_web/dist/assets/images/products-11.jpg");
         height: 224px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
         @media (max-width: 991.98px) {
           .section-location .location-list li.item-location .card-pic.product-11 {
-            background-image: url("./assets/images/products-11.jpg");
+            background-image: url("/glass_web/dist/assets/images/products-11.jpg");
             height: 164px;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center; } }
       .section-location .location-list li.item-location .card-pic.product-12 {
-        background-image: url("./assets/images/products-12.jpg");
+        background-image: url("/glass_web/dist/assets/images/products-12.jpg");
         height: 224px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
         @media (max-width: 991.98px) {
           .section-location .location-list li.item-location .card-pic.product-12 {
-            background-image: url("./assets/images/products-12.jpg");
+            background-image: url("/glass_web/dist/assets/images/products-12.jpg");
             height: 164px;
             background-size: cover;
             background-repeat: no-repeat;
@@ -8081,7 +8081,7 @@ footer {
       .section-location .location-area .item-location .__location-card .card-pic {
         width: 100%;
         height: 224px;
-        background-image: url("./assets/images/locate1.jpeg");
+        background-image: url("/glass_web/dist/assets/images/locate1.jpeg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
@@ -8194,19 +8194,19 @@ footer {
       -moz-transition: all 1s;
       -ms-transition: all 1s;
       -o-transition: all 1s;
-      background-image: url("./assets/images/locate1.jpeg");
+      background-image: url("/glass_web/dist/assets/images/locate1.jpeg");
       background-size: 100%;
       background-repeat: no-repeat;
       background-position: center center; }
       @media (max-width: 1199.98px) {
         .section-news .item-pic.location-pic-1 {
-          background-image: url("./assets/images/locate1.jpeg");
+          background-image: url("/glass_web/dist/assets/images/locate1.jpeg");
           background-size: 130%;
           background-repeat: no-repeat;
           background-position: center center; } }
       @media (max-width: 991.98px) {
         .section-news .item-pic.location-pic-1 {
-          background-image: url("./assets/images/locate1.jpeg");
+          background-image: url("/glass_web/dist/assets/images/locate1.jpeg");
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center center; } }
@@ -8217,19 +8217,19 @@ footer {
       -moz-transition: all 1s;
       -ms-transition: all 1s;
       -o-transition: all 1s;
-      background-image: url("./assets/images/locate2.jpg");
+      background-image: url("/glass_web/dist/assets/images/locate2.jpg");
       background-size: 100%;
       background-repeat: no-repeat;
       background-position: center center; }
       @media (max-width: 1199.98px) {
         .section-news .item-pic.location-pic-2 {
-          background-image: url("./assets/images/locate2.jpg");
+          background-image: url("/glass_web/dist/assets/images/locate2.jpg");
           background-size: 130%;
           background-repeat: no-repeat;
           background-position: center center; } }
       @media (max-width: 991.98px) {
         .section-news .item-pic.location-pic-2 {
-          background-image: url("./assets/images/locate2.jpg");
+          background-image: url("/glass_web/dist/assets/images/locate2.jpg");
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center center; } }
@@ -8240,19 +8240,19 @@ footer {
       -moz-transition: all 1s;
       -ms-transition: all 1s;
       -o-transition: all 1s;
-      background-image: url("./assets/images/locate3.jpg");
+      background-image: url("/glass_web/dist/assets/images/locate3.jpg");
       background-size: 100%;
       background-repeat: no-repeat;
       background-position: center center; }
       @media (max-width: 1199.98px) {
         .section-news .item-pic.location-pic-3 {
-          background-image: url("./assets/images/locate3.jpg");
+          background-image: url("/glass_web/dist/assets/images/locate3.jpg");
           background-size: 130%;
           background-repeat: no-repeat;
           background-position: center center; } }
       @media (max-width: 991.98px) {
         .section-news .item-pic.location-pic-3 {
-          background-image: url("./assets/images/locate3.jpg");
+          background-image: url("/glass_web/dist/assets/images/locate3.jpg");
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center center; } }
@@ -8263,19 +8263,19 @@ footer {
       -moz-transition: all 1s;
       -ms-transition: all 1s;
       -o-transition: all 1s;
-      background-image: url("./assets/images/locate4.jpg");
+      background-image: url("/glass_web/dist/assets/images/locate4.jpg");
       background-size: 100%;
       background-repeat: no-repeat;
       background-position: center center; }
       @media (max-width: 1199.98px) {
         .section-news .item-pic.location-pic-4 {
-          background-image: url("./assets/images/locate4.jpg");
+          background-image: url("/glass_web/dist/assets/images/locate4.jpg");
           background-size: 130%;
           background-repeat: no-repeat;
           background-position: center center; } }
       @media (max-width: 991.98px) {
         .section-news .item-pic.location-pic-4 {
-          background-image: url("./assets/images/locate4.jpg");
+          background-image: url("/glass_web/dist/assets/images/locate4.jpg");
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center center; } }
@@ -8286,19 +8286,19 @@ footer {
       -moz-transition: all 1s;
       -ms-transition: all 1s;
       -o-transition: all 1s;
-      background-image: url("./assets/images/locate5.jpg");
+      background-image: url("/glass_web/dist/assets/images/locate5.jpg");
       background-size: 100%;
       background-repeat: no-repeat;
       background-position: center center; }
       @media (max-width: 1199.98px) {
         .section-news .item-pic.location-pic-5 {
-          background-image: url("./assets/images/locate5.jpg");
+          background-image: url("/glass_web/dist/assets/images/locate5.jpg");
           background-size: 130%;
           background-repeat: no-repeat;
           background-position: center center; } }
       @media (max-width: 991.98px) {
         .section-news .item-pic.location-pic-5 {
-          background-image: url("./assets/images/locate5.jpg");
+          background-image: url("/glass_web/dist/assets/images/locate5.jpg");
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center center; } }
@@ -8309,19 +8309,19 @@ footer {
       -moz-transition: all 1s;
       -ms-transition: all 1s;
       -o-transition: all 1s;
-      background-image: url("./assets/images/blog-1.png");
+      background-image: url("/glass_web/dist/assets/images/blog-1.png");
       background-size: 100%;
       background-repeat: no-repeat;
       background-position: center center; }
       @media (max-width: 1199.98px) {
         .section-news .item-pic.blog-1 {
-          background-image: url("./assets/images/blog-1.png");
+          background-image: url("/glass_web/dist/assets/images/blog-1.png");
           background-size: 130%;
           background-repeat: no-repeat;
           background-position: center center; } }
       @media (max-width: 991.98px) {
         .section-news .item-pic.blog-1 {
-          background-image: url("./assets/images/blog-1.png");
+          background-image: url("/glass_web/dist/assets/images/blog-1.png");
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center center; } }
@@ -8332,19 +8332,19 @@ footer {
       -moz-transition: all 1s;
       -ms-transition: all 1s;
       -o-transition: all 1s;
-      background-image: url("./assets/images/blog-2.png");
+      background-image: url("/glass_web/dist/assets/images/blog-2.png");
       background-size: 100%;
       background-repeat: no-repeat;
       background-position: center center; }
       @media (max-width: 1199.98px) {
         .section-news .item-pic.blog-2 {
-          background-image: url("./assets/images/blog-2.png");
+          background-image: url("/glass_web/dist/assets/images/blog-2.png");
           background-size: 130%;
           background-repeat: no-repeat;
           background-position: center center; } }
       @media (max-width: 991.98px) {
         .section-news .item-pic.blog-2 {
-          background-image: url("./assets/images/blog-2.png");
+          background-image: url("/glass_web/dist/assets/images/blog-2.png");
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center center; } }
@@ -8355,19 +8355,19 @@ footer {
       -moz-transition: all 1s;
       -ms-transition: all 1s;
       -o-transition: all 1s;
-      background-image: url("./assets/images/blog-3.png");
+      background-image: url("/glass_web/dist/assets/images/blog-3.png");
       background-size: 100%;
       background-repeat: no-repeat;
       background-position: center center; }
       @media (max-width: 1199.98px) {
         .section-news .item-pic.blog-3 {
-          background-image: url("./assets/images/blog-3.png");
+          background-image: url("/glass_web/dist/assets/images/blog-3.png");
           background-size: 130%;
           background-repeat: no-repeat;
           background-position: center center; } }
       @media (max-width: 991.98px) {
         .section-news .item-pic.blog-3 {
-          background-image: url("./assets/images/blog-3.png");
+          background-image: url("/glass_web/dist/assets/images/blog-3.png");
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center center; } }
@@ -8378,19 +8378,19 @@ footer {
       -moz-transition: all 1s;
       -ms-transition: all 1s;
       -o-transition: all 1s;
-      background-image: url("./assets/images/blog-4.png");
+      background-image: url("/glass_web/dist/assets/images/blog-4.png");
       background-size: 100%;
       background-repeat: no-repeat;
       background-position: center center; }
       @media (max-width: 1199.98px) {
         .section-news .item-pic.blog-4 {
-          background-image: url("./assets/images/blog-4.png");
+          background-image: url("/glass_web/dist/assets/images/blog-4.png");
           background-size: 130%;
           background-repeat: no-repeat;
           background-position: center center; } }
       @media (max-width: 991.98px) {
         .section-news .item-pic.blog-4 {
-          background-image: url("./assets/images/blog-4.png");
+          background-image: url("/glass_web/dist/assets/images/blog-4.png");
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center center; } }
@@ -8401,19 +8401,19 @@ footer {
       -moz-transition: all 1s;
       -ms-transition: all 1s;
       -o-transition: all 1s;
-      background-image: url("./assets/images/blog-5.png");
+      background-image: url("/glass_web/dist/assets/images/blog-5.png");
       background-size: 100%;
       background-repeat: no-repeat;
       background-position: center center; }
       @media (max-width: 1199.98px) {
         .section-news .item-pic.blog-5 {
-          background-image: url("./assets/images/blog-5.png");
+          background-image: url("/glass_web/dist/assets/images/blog-5.png");
           background-size: 130%;
           background-repeat: no-repeat;
           background-position: center center; } }
       @media (max-width: 991.98px) {
         .section-news .item-pic.blog-5 {
-          background-image: url("./assets/images/blog-5.png");
+          background-image: url("/glass_web/dist/assets/images/blog-5.png");
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center center; } }
@@ -8424,19 +8424,19 @@ footer {
       -moz-transition: all 1s;
       -ms-transition: all 1s;
       -o-transition: all 1s;
-      background-image: url("./assets/images/products-1.png");
+      background-image: url("/glass_web/dist/assets/images/products-1.png");
       background-size: 100%;
       background-repeat: no-repeat;
       background-position: center center; }
       @media (max-width: 1199.98px) {
         .section-news .item-pic.product-1 {
-          background-image: url("./assets/images/products-1.png");
+          background-image: url("/glass_web/dist/assets/images/products-1.png");
           background-size: 130%;
           background-repeat: no-repeat;
           background-position: center center; } }
       @media (max-width: 991.98px) {
         .section-news .item-pic.product-1 {
-          background-image: url("./assets/images/products-1.png");
+          background-image: url("/glass_web/dist/assets/images/products-1.png");
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center center; } }
@@ -8447,19 +8447,19 @@ footer {
       -moz-transition: all 1s;
       -ms-transition: all 1s;
       -o-transition: all 1s;
-      background-image: url("./assets/images/products-2.png");
+      background-image: url("/glass_web/dist/assets/images/products-2.png");
       background-size: 100%;
       background-repeat: no-repeat;
       background-position: center center; }
       @media (max-width: 1199.98px) {
         .section-news .item-pic.product-2 {
-          background-image: url("./assets/images/products-2.png");
+          background-image: url("/glass_web/dist/assets/images/products-2.png");
           background-size: 130%;
           background-repeat: no-repeat;
           background-position: center center; } }
       @media (max-width: 991.98px) {
         .section-news .item-pic.product-2 {
-          background-image: url("./assets/images/products-2.png");
+          background-image: url("/glass_web/dist/assets/images/products-2.png");
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center center; } }
@@ -8470,19 +8470,19 @@ footer {
       -moz-transition: all 1s;
       -ms-transition: all 1s;
       -o-transition: all 1s;
-      background-image: url("./assets/images/products-3.png");
+      background-image: url("/glass_web/dist/assets/images/products-3.png");
       background-size: 100%;
       background-repeat: no-repeat;
       background-position: center center; }
       @media (max-width: 1199.98px) {
         .section-news .item-pic.product-3 {
-          background-image: url("./assets/images/products-3.png");
+          background-image: url("/glass_web/dist/assets/images/products-3.png");
           background-size: 130%;
           background-repeat: no-repeat;
           background-position: center center; } }
       @media (max-width: 991.98px) {
         .section-news .item-pic.product-3 {
-          background-image: url("./assets/images/products-3.png");
+          background-image: url("/glass_web/dist/assets/images/products-3.png");
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center center; } }
@@ -8493,19 +8493,19 @@ footer {
       -moz-transition: all 1s;
       -ms-transition: all 1s;
       -o-transition: all 1s;
-      background-image: url("./assets/images/products-4.png");
+      background-image: url("/glass_web/dist/assets/images/products-4.png");
       background-size: 100%;
       background-repeat: no-repeat;
       background-position: center center; }
       @media (max-width: 1199.98px) {
         .section-news .item-pic.product-4 {
-          background-image: url("./assets/images/products-4.png");
+          background-image: url("/glass_web/dist/assets/images/products-4.png");
           background-size: 130%;
           background-repeat: no-repeat;
           background-position: center center; } }
       @media (max-width: 991.98px) {
         .section-news .item-pic.product-4 {
-          background-image: url("./assets/images/products-4.png");
+          background-image: url("/glass_web/dist/assets/images/products-4.png");
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center center; } }
@@ -8516,19 +8516,19 @@ footer {
       -moz-transition: all 1s;
       -ms-transition: all 1s;
       -o-transition: all 1s;
-      background-image: url("./assets/images/products-5.jpg");
+      background-image: url("/glass_web/dist/assets/images/products-5.jpg");
       background-size: 100%;
       background-repeat: no-repeat;
       background-position: center center; }
       @media (max-width: 1199.98px) {
         .section-news .item-pic.product-5 {
-          background-image: url("./assets/images/products-5.jpg");
+          background-image: url("/glass_web/dist/assets/images/products-5.jpg");
           background-size: 130%;
           background-repeat: no-repeat;
           background-position: center center; } }
       @media (max-width: 991.98px) {
         .section-news .item-pic.product-5 {
-          background-image: url("./assets/images/products-5.jpg");
+          background-image: url("/glass_web/dist/assets/images/products-5.jpg");
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center center; } }
@@ -8539,19 +8539,19 @@ footer {
       -moz-transition: all 1s;
       -ms-transition: all 1s;
       -o-transition: all 1s;
-      background-image: url("./assets/images/products-6.jpg");
+      background-image: url("/glass_web/dist/assets/images/products-6.jpg");
       background-size: 100%;
       background-repeat: no-repeat;
       background-position: center center; }
       @media (max-width: 1199.98px) {
         .section-news .item-pic.product-6 {
-          background-image: url("./assets/images/products-6.jpg");
+          background-image: url("/glass_web/dist/assets/images/products-6.jpg");
           background-size: 130%;
           background-repeat: no-repeat;
           background-position: center center; } }
       @media (max-width: 991.98px) {
         .section-news .item-pic.product-6 {
-          background-image: url("./assets/images/products-6.jpg");
+          background-image: url("/glass_web/dist/assets/images/products-6.jpg");
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center center; } }
@@ -8585,19 +8585,19 @@ footer {
       -moz-transition: all 1s;
       -ms-transition: all 1s;
       -o-transition: all 1s;
-      background-image: url("./assets/images/products-8.jpg");
+      background-image: url("/glass_web/dist/assets/images/products-8.jpg");
       background-size: 100%;
       background-repeat: no-repeat;
       background-position: center center; }
       @media (max-width: 1199.98px) {
         .section-news .item-pic.product-8 {
-          background-image: url("./assets/images/products-8.jpg");
+          background-image: url("/glass_web/dist/assets/images/products-8.jpg");
           background-size: 130%;
           background-repeat: no-repeat;
           background-position: center center; } }
       @media (max-width: 991.98px) {
         .section-news .item-pic.product-8 {
-          background-image: url("./assets/images/products-8.jpg");
+          background-image: url("/glass_web/dist/assets/images/products-8.jpg");
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center center; } }
@@ -8608,19 +8608,19 @@ footer {
       -moz-transition: all 1s;
       -ms-transition: all 1s;
       -o-transition: all 1s;
-      background-image: url("./assets/images/products-9.jpg");
+      background-image: url("/glass_web/dist/assets/images/products-9.jpg");
       background-size: 100%;
       background-repeat: no-repeat;
       background-position: center center; }
       @media (max-width: 1199.98px) {
         .section-news .item-pic.product-9 {
-          background-image: url("./assets/images/products-9.jpg");
+          background-image: url("/glass_web/dist/assets/images/products-9.jpg");
           background-size: 130%;
           background-repeat: no-repeat;
           background-position: center center; } }
       @media (max-width: 991.98px) {
         .section-news .item-pic.product-9 {
-          background-image: url("./assets/images/products-9.jpg");
+          background-image: url("/glass_web/dist/assets/images/products-9.jpg");
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center center; } }
@@ -8631,19 +8631,19 @@ footer {
       -moz-transition: all 1s;
       -ms-transition: all 1s;
       -o-transition: all 1s;
-      background-image: url("./assets/images/products-10.jpg");
+      background-image: url("/glass_web/dist/assets/images/products-10.jpg");
       background-size: 100%;
       background-repeat: no-repeat;
       background-position: center center; }
       @media (max-width: 1199.98px) {
         .section-news .item-pic.product-10 {
-          background-image: url("./assets/images/products-10.jpg");
+          background-image: url("/glass_web/dist/assets/images/products-10.jpg");
           background-size: 130%;
           background-repeat: no-repeat;
           background-position: center center; } }
       @media (max-width: 991.98px) {
         .section-news .item-pic.product-10 {
-          background-image: url("./assets/images/products-10.jpg");
+          background-image: url("/glass_web/dist/assets/images/products-10.jpg");
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center center; } }
@@ -8654,19 +8654,19 @@ footer {
       -moz-transition: all 1s;
       -ms-transition: all 1s;
       -o-transition: all 1s;
-      background-image: url("./assets/images/products-11.jpg");
+      background-image: url("/glass_web/dist/assets/images/products-11.jpg");
       background-size: 100%;
       background-repeat: no-repeat;
       background-position: center center; }
       @media (max-width: 1199.98px) {
         .section-news .item-pic.product-11 {
-          background-image: url("./assets/images/products-11.jpg");
+          background-image: url("/glass_web/dist/assets/images/products-11.jpg");
           background-size: 130%;
           background-repeat: no-repeat;
           background-position: center center; } }
       @media (max-width: 991.98px) {
         .section-news .item-pic.product-11 {
-          background-image: url("./assets/images/products-11.jpg");
+          background-image: url("/glass_web/dist/assets/images/products-11.jpg");
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center center; } }
@@ -8677,19 +8677,19 @@ footer {
       -moz-transition: all 1s;
       -ms-transition: all 1s;
       -o-transition: all 1s;
-      background-image: url("./assets/images/products-12.jpg");
+      background-image: url("/glass_web/dist/assets/images/products-12.jpg");
       background-size: 100%;
       background-repeat: no-repeat;
       background-position: center center; }
       @media (max-width: 1199.98px) {
         .section-news .item-pic.product-12 {
-          background-image: url("./assets/images/products-12.jpg");
+          background-image: url("/glass_web/dist/assets/images/products-12.jpg");
           background-size: 130%;
           background-repeat: no-repeat;
           background-position: center center; } }
       @media (max-width: 991.98px) {
         .section-news .item-pic.product-12 {
-          background-image: url("./assets/images/products-12.jpg");
+          background-image: url("/glass_web/dist/assets/images/products-12.jpg");
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center center; } }
