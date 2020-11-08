@@ -6591,7 +6591,7 @@ main h2 {
       line-height: 63px !important; } }
 
 main h3 {
-  font-size: 20pt !important;
+  font-size: 16px !important;
   margin-bottom: 0; }
   @media (min-width: 320.98px) {
     main h3 {
@@ -7579,7 +7579,8 @@ footer {
         -ms-flex-pack: justify;
             justify-content: space-between; }
     .section-products .item-product-list .item-product {
-      margin-bottom: 104px; }
+      margin-bottom: 104px;
+      padding: 0 15px; }
       @media (max-width: 767.98px) {
         .section-products .item-product-list .item-product {
           margin-bottom: 32px; } }
@@ -7644,19 +7645,19 @@ footer {
         background-repeat: no-repeat;
         background-position: center center; }
       .section-products .item-product-list .item-product .item-pic.product-1 {
-        background-image: url("/glass_web/dist/assets/images/products-1.png");
+        background-image: url("/assets/images/products-1.png");
         height: 164px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
       .section-products .item-product-list .item-product .item-pic.product-2 {
-        background-image: url("/glass_web/dist/assets/images/products-2.png");
+        background-image: url("/assets/images/products-2.png");
         height: 164px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
       .section-products .item-product-list .item-product .item-pic.product-3 {
-        background-image: url("/glass_web/dist/assets/images/products-3.png");
+        background-image: url("/assets/images/products-3.png");
         height: 164px;
         background-size: cover;
         background-repeat: no-repeat;
@@ -7724,13 +7725,25 @@ footer {
               justify-content: space-between;
       text-transform: uppercase; }
       .section-products .item-product-list .item-product-content .item-product-name {
+        font-family: "Roboto", sans-serif;
         font-size: 24px;
         line-height: 36px; }
+        @media (max-width: 575.98px) {
+          .section-products .item-product-list .item-product-content .item-product-name {
+            font-family: "Roboto", sans-serif;
+            font-size: 16px;
+            line-height: 30px; } }
       .section-products .item-product-list .item-product-content .item-product-price {
+        text-align: right;
+        font-family: "Roboto", sans-serif;
         font-size: 24px;
-        line-height: 36px;
         color: #AA0601;
-        text-align: right; }
+        line-height: 36px; }
+        @media (max-width: 575.98px) {
+          .section-products .item-product-list .item-product-content .item-product-price {
+            font-family: "Roboto", sans-serif;
+            font-size: 16px;
+            line-height: 30px; } }
   .section-products.__products-1 .item-product {
     width: calc(100% / 4);
     max-width: 255px; }
@@ -7741,11 +7754,10 @@ footer {
     @media (max-width: 767.98px) {
       .section-products.__products-1 .item-product {
         width: calc(100% / 2);
-        max-width: 330px; } }
+        max-width: 100%; } }
     @media (max-width: 575.98px) {
       .section-products.__products-1 .item-product {
-        width: 100%;
-        max-width: 100%; } }
+        width: 100%; } }
   .section-products.__products-2 .item-product {
     width: calc(100% / 3);
     max-width: 350px; }
@@ -7764,14 +7776,11 @@ footer {
   .section-products.__products-2 .item-product-content {
     display: grid;
     text-transform: uppercase; }
-    .section-products.__products-2 .item-product-content .item-product-name {
-      font-size: 24px;
-      line-height: 36px; }
-    .section-products.__products-2 .item-product-content .item-product-price {
-      font-size: 24px;
-      line-height: 36px;
-      color: #AA0601;
-      text-align: right; }
+    @media (max-width: 991.98px) {
+      .section-products.__products-2 .item-product-content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; } }
 
 .section-location {
   padding: 12px 0 304px 0;
@@ -7945,40 +7954,40 @@ footer {
             background-repeat: no-repeat;
             background-position: center center; } }
       .section-location .location-list li.item-location .card-pic.product-1 {
-        background-image: url("/glass_web/dist/assets/images/products-1.png");
+        background-image: url("/assets/images/products-1.png");
         height: 224px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
         @media (max-width: 991.98px) {
           .section-location .location-list li.item-location .card-pic.product-1 {
-            background-image: url("/glass_web/dist/assets/images/products-1.png");
+            background-image: url("/assets/images/products-1.png");
             height: 164px;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center; } }
       .section-location .location-list li.item-location .card-pic.product-2 {
-        background-image: url("/glass_web/dist/assets/images/products-2.png");
+        background-image: url("/assets/images/products-2.png");
         height: 224px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
         @media (max-width: 991.98px) {
           .section-location .location-list li.item-location .card-pic.product-2 {
-            background-image: url("/glass_web/dist/assets/images/products-2.png");
+            background-image: url("/assets/images/products-2.png");
             height: 164px;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center; } }
       .section-location .location-list li.item-location .card-pic.product-3 {
-        background-image: url("/glass_web/dist/assets/images/products-3.png");
+        background-image: url("/assets/images/products-3.png");
         height: 224px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; }
         @media (max-width: 991.98px) {
           .section-location .location-list li.item-location .card-pic.product-3 {
-            background-image: url("/glass_web/dist/assets/images/products-3.png");
+            background-image: url("/assets/images/products-3.png");
             height: 164px;
             background-size: cover;
             background-repeat: no-repeat;
@@ -8470,19 +8479,19 @@ footer {
       -moz-transition: all 1s;
       -ms-transition: all 1s;
       -o-transition: all 1s;
-      background-image: url("/glass_web/dist/assets/images/products-1.png");
+      background-image: url("/assets/images/products-1.png");
       background-size: 100%;
       background-repeat: no-repeat;
       background-position: center center; }
       @media (max-width: 1199.98px) {
         .section-news .item-pic.product-1 {
-          background-image: url("/glass_web/dist/assets/images/products-1.png");
+          background-image: url("/assets/images/products-1.png");
           background-size: 130%;
           background-repeat: no-repeat;
           background-position: center center; } }
       @media (max-width: 991.98px) {
         .section-news .item-pic.product-1 {
-          background-image: url("/glass_web/dist/assets/images/products-1.png");
+          background-image: url("/assets/images/products-1.png");
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center center; } }
@@ -8493,19 +8502,19 @@ footer {
       -moz-transition: all 1s;
       -ms-transition: all 1s;
       -o-transition: all 1s;
-      background-image: url("/glass_web/dist/assets/images/products-2.png");
+      background-image: url("/assets/images/products-2.png");
       background-size: 100%;
       background-repeat: no-repeat;
       background-position: center center; }
       @media (max-width: 1199.98px) {
         .section-news .item-pic.product-2 {
-          background-image: url("/glass_web/dist/assets/images/products-2.png");
+          background-image: url("/assets/images/products-2.png");
           background-size: 130%;
           background-repeat: no-repeat;
           background-position: center center; } }
       @media (max-width: 991.98px) {
         .section-news .item-pic.product-2 {
-          background-image: url("/glass_web/dist/assets/images/products-2.png");
+          background-image: url("/assets/images/products-2.png");
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center center; } }
@@ -8516,19 +8525,19 @@ footer {
       -moz-transition: all 1s;
       -ms-transition: all 1s;
       -o-transition: all 1s;
-      background-image: url("/glass_web/dist/assets/images/products-3.png");
+      background-image: url("/assets/images/products-3.png");
       background-size: 100%;
       background-repeat: no-repeat;
       background-position: center center; }
       @media (max-width: 1199.98px) {
         .section-news .item-pic.product-3 {
-          background-image: url("/glass_web/dist/assets/images/products-3.png");
+          background-image: url("/assets/images/products-3.png");
           background-size: 130%;
           background-repeat: no-repeat;
           background-position: center center; } }
       @media (max-width: 991.98px) {
         .section-news .item-pic.product-3 {
-          background-image: url("/glass_web/dist/assets/images/products-3.png");
+          background-image: url("/assets/images/products-3.png");
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center center; } }
