@@ -1,0 +1,170 @@
+.home-page{
+    .section-feature{
+        .item-feature{
+            img{
+                width: 100px;
+                height: 100px;
+                @include media-max(md){
+                    width: 80px;
+                    height: 80px;
+                }
+            }
+        }
+        .item-feature-title{
+            @include font-source-sans(24px, false, map-get($index-group,'item-feature-title-color'), bold, 36px);
+            @include media-max(md){
+                @include font-source-sans(20px, false, false, bold, 30px);
+            }
+        }
+        .item-feature-content{
+            max-width: 208px;
+            margin: 0 auto;
+            text-align: left;
+            @include font-source-sans(16px, false, false, false, 24px);
+            @include media-max(md){
+                max-width: 237px;
+            }
+        } 
+    }
+    .section-ad{
+        .item-ad-list{
+            li{
+                display: flex;
+                align-items: center;
+                margin-bottom: 32px;
+                @include relative();
+                @include media-max(md){
+                    margin-bottom: 8px;
+                }
+                &:nth-child(2){
+                    flex-direction: row-reverse;
+                    .item-ad-image{
+                        margin-left: 30px;
+                        @include media-max(sm){
+                            margin-left: 0px;
+                        }
+                    }
+                    @include media-max(sm){
+                        flex-direction: inherit;
+                    }
+                }
+                .item-ad-image{
+                    max-width: 635px;
+                    @include media-max(md){
+                        max-width: calc( 100% - 340px);
+                    }
+                    @include media-max(xs){
+                        max-width:100%;
+                    }
+                }
+                .item-ad-content{
+                    display: flex;
+                    align-items: center;
+                    max-width: 100%;
+                    text-transform: uppercase;
+                    @include font-source-sans(48px, false, map-get($index-group,'product-name-color-lg'), bold, 72px);
+                    img{
+                        max-width: 48px;
+                    }
+                    @include media-max(lg){
+                        font-size: 40px;
+                    }
+                    @include media-max(md){
+                        @include font-source-sans(28px, false, false, false, 42px);
+                        min-width: 340px;
+                        img{
+                            max-width: 32px;
+                        }
+                    }
+                    @include media-max(xs){
+                        @include absolute(top 50% left 50%);
+                        @include transform(translate(-50%,-50%));
+                        display: flex;
+                        justify-content: center;
+                        color: map-get($index-group,'product-name-color-xs');
+                    }
+                }
+            }
+        }
+    }
+    .section-cooperation-product{  // 聯名設計
+        @include background(map-get($index-group,'section-cooperation-product'), 100%, false, false, cover, no-repeat, center center);
+        .item-cooperation{
+            background: white;
+            text-align: center;
+            margin-bottom: 16px;
+            @include relative();
+            @include font-source-sans(72px, false, map-get($index-group,'product-name-color-lg'), false, 108px);
+            img{
+                @include opacity(.5);
+            }
+            p{
+                width: 365px;
+                @include absolute(top 50% left 50%);
+                @include transform(translate(-50%,-50%));
+                @include font-source-sans(72px, false, map-get($index-group,'product-name-color-lg'), bold, 108px);
+                @include media-max(sm){
+                    @include font-source-sans(32px, false, false bold, 25px);
+                }
+            }
+            @include media-max(sm){
+                max-width: 678px;
+                margin:0 auto 16px auto;
+            }
+            @include media-max(xs){
+                max-width: 345px;
+            }
+        }
+    }
+    .section-customer-recommend{ // 顧客推薦
+        color:map-get($index-group,'card-title-color');
+    }
+    .section-contact{  // 聯繫
+        color: map-get($index-group,'content-color') !important;
+        .contact-content{
+            max-width: 730px;
+            @include media-max(sm){
+                max-width: 450px;
+            }
+            p{
+                @include font-source-sans(20px, false, false, false, 30px);
+                @include media-max(md){
+                    @include font-source-sans(16px, false, false, false, 24px);
+                }
+            }
+            .form-control{
+                border-radius: 0;
+                border: 1px solid map-get($color-group,'content-border-color');
+                @include font-source-sans(16px, false, map-get($color-group,'content-border-color'), false, 24px);
+                @include media-max(md){
+                    @include font-source-sans(14px, false, map-get($color-group,'content-border-color'), false, 21px);
+                }
+            }
+            .form-check{
+                margin-bottom: 42px;
+                @include media-max(md){
+                    margin-bottom: 20px;
+                }
+            }
+            .btn-submit{
+                width: 350px;
+                border-radius: 0 ;
+                font-size: 16px;
+                line-height: 24px;
+                padding: 16px 0;
+                margin-bottom: 16px;
+                @include media-max(md){
+                    width: 210px;
+                    font-size: 14px;
+                    line-height: 21px;
+                    padding: 8px 0;
+                    margin-bottom: 40px;
+                }
+                @include media-max(xs){
+                    width: 165px;
+                    margin-bottom: 32px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,202 @@
+.inner-page{
+    header{
+        @include box-shadow(0px, 2px, 3px, #00000029, $inset: false);
+    }
+    .product-slider{
+        display: flex;
+        .item-slider{
+            &.__slider-1{
+                @include background(map-get($banner-group,'slider-inner-image-1'), false, false, false, cover, no-repeat, center center);
+            }
+            &.__slider-2{
+                @include background(map-get($banner-group,'slider-inner-image-2'), false, false, false, cover, no-repeat, center center);
+            }
+            min-height: 309px;
+            @include calc( width, 48%,'100% / 2 - 15px');
+            &:first-child{
+                margin-right: 30px;
+            }
+            @include media-max(sm){
+                @include calc( width, 50%,'100% / 2');
+                &:first-child{
+                    margin-right: 0px;
+                }
+            }
+            @include media-max(xs){
+                min-height: 145px;
+            }
+        }
+    }
+    .sub-slider{
+        @include background(map-get($banner-group,'slider-inner-location-banner'), false,false,false,cover,no-repeat,center center);
+        .slider{
+            display: flex;
+            align-items: flex-end;
+            min-height: 304px;
+            .content{
+                margin-bottom: 8px;
+            }
+            @include media-max(xs){
+                min-height: 143px;
+            }
+            img{
+                width: 40px;
+                height: 57px;
+                @include media-max(sm){
+                    width: 30px;
+                    height: 40px;
+                }
+                @include media-max(xs){
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+            }
+        }
+        h1{
+            margin: 0;
+            font-weight: bold;
+            font-size: 64px;
+            line-height: 80px;
+            margin-right: 8px;
+            @include media-max(sm){
+                font-size: 48px;
+                line-height: 80px;
+            }
+            @include media-max(xs){
+                font-size: 28px;
+                line-height: 80px;
+                
+            }
+        }
+    }
+    ul.product-menu{
+        margin: 0 auto;
+        max-width: 1380px;
+        display: flex;
+        align-items: center;
+        align-content: baseline;
+        height: 103px;
+        @include media-max(md){
+            height: 69px;
+        }
+        @include media-max(xs){
+            height: 35px;
+        }
+        li{
+            width: calc(100% / 3);
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid map-get($inner-group,'sub-menu-border-color');
+            @include transition(.3s);
+            a{
+                text-decoration: none;
+                font-size: 43px;
+                line-height: 63px;
+                color: black;
+                display: block;
+                text-align: center;
+                @include media-max(lg){
+                    font-size: 38px;
+                    line-height: 48px;
+                }
+                @include media-max(md){
+                    font-size: 28px;
+                    line-height: 48px;
+                }
+                @include media-max(sm){
+                    font-size: 18px;
+                    line-height: 19px;
+                }
+                @include media-max(xs){
+                    font-size: 14px;
+                    line-height: 19px;
+                }
+                img{
+                    height: 48px;
+                    @include media-max(md){
+                        height: 32px;
+                    }
+                    @include media-max(sm){
+                        height: 28px;
+                    }
+                    @include media-max(xs){
+                        height: 15px;
+                    }
+                }
+            }
+            &.active{
+                border-bottom: 16px solid map-get($inner-group,'sub-menu-active');
+                @include transition(.3s);
+                @include media-max(md){
+                    border-bottom: 8px solid map-get($inner-group,'sub-menu-active');
+                }
+                @include media-max(xs){
+                    border-bottom: 4px solid map-get($inner-group,'sub-menu-active');
+                }
+            }
+            &.disabled{
+                color: map-get($inner-group,'product-text-disabled-color');
+                cursor: no-drop;
+                a{
+                    color: map-get($inner-group,'product-text-disabled-color');
+                    cursor: no-drop;
+                }
+            }
+        }
+    }
+    .sub-menu{
+        background: #650300;
+        display: flex;
+        justify-content: space-between;
+        ul{
+            display: flex;
+            @include media-max(xs){
+                width: 100%;
+                justify-content: space-between;
+            }
+        }
+        li{
+            padding: 10px 48px 10px 0;
+            @include media-max(sm){
+                padding: 16px 32px 16px 0;
+            }
+            @include media-max(xs){
+                padding: 16px 0px 16px 0;
+            }
+            a{
+                color: white;
+                text-decoration: none;
+                font-size: 20px;
+                line-height: 24px;
+                font-weight: bold;
+                @include media-max(sm){
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+            }
+        }
+        img{
+            width: 20px;
+            @include media-max(xs){
+                display: none;
+            }
+        }
+        @include media-max(xs){
+            // display: none;
+        }
+    }
+}
+
+.tag{
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    &.__yellow{
+        background: map-get($inner-group,'product-tag-1');
+    }
+    &.__brown{
+        background: map-get($inner-group,'product-tag-2');
+    }
+}

@@ -1,0 +1,24 @@
+.pagination{
+    .page-link{
+        color:map-get($pagination-group,'emperor');
+    }
+    .page-item{
+        .page-link{
+            // background-color:transparent;
+            border: 1px solid map-get($pagination-group, 'border-color');
+            border-radius:0;
+            color: map-get($pagination-group, 'text-normal');
+        }
+        &.active{
+            .page-link{
+                color: map-get($pagination-group,'text-active') !important;
+                background-color: map-get($pagination-group,'background-active') !important;
+            }
+        }
+        &:last-child{
+            a{
+                background-color: map-get($pagination-group,'background-normal');
+            }
+        }
+    }
+}

@@ -1,0 +1,91 @@
+.card{
+    &.__customer-card{
+        max-width: 255px;
+        margin-bottom: 16px;
+        // @include media-max(md){
+        //     max-width: 330px;
+        //     margin-bottom: 16px;
+        // }
+        @include media-max(sm){
+            max-width: 345px;
+            margin: 0 auto;
+            margin-bottom: 16px;
+        }
+        .card-body{
+            padding: 16px;
+        }
+        .card-title{
+            font-size: 14px;
+            line-height: 21px;
+            margin-bottom: 16px;
+        }
+        .card-text{
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 16px;
+        }
+        .card-time{
+            font-size: 14px;
+            line-height: 21px;
+            color:map-get($card-group,'card-time-color');
+        }
+    }
+    &.__location-card{
+        max-width: 350px;
+        margin-bottom: 32px;
+        @include media-max(sm){
+            margin: 0 auto;
+        }
+        .card-title{
+            font-size: 24px;
+            line-height: 36px;
+            padding: 12px 24px;
+            margin-bottom: 0;
+            border-bottom: 1px solid map-get($card-group,'border-color');
+            @include media-max(md){
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+        .card-text{
+            padding: 16px 24px 16px 24px;
+            font-size: 20px;
+            line-height: 30px;
+            display: flex;
+            flex-wrap: initial;
+            flex-flow: column;
+            @include media-max(md){
+                padding: 14px 16px;
+            }
+            li{
+                display: flex;
+            }
+            img{
+                max-width: 21px;
+                max-height: 21px;
+                margin-top: 5px;
+                margin-right: 10px;
+                @include media-max(md){
+                    margin-top: 0px;
+                    max-width: 20px;
+                    max-height: 20px;
+                    margin-right: 16px;
+                }
+            }
+            @include media-max(md){
+                font-size: 14px;
+                line-height: 21px;
+            }
+        }
+        .btn-card-info{
+            padding: 20px 0;
+            text-decoration: none;
+            background: black;
+            transition: .3s;
+            &:hover{
+                transition: .3s;
+                background: lighten(black,5);
+            }
+        }
+    }
+}

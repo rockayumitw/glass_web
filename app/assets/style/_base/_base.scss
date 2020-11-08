@@ -1,0 +1,90 @@
+
+*{
+    outline: 0;
+    @include box-sizing(border-box);
+    @extend %zero;
+}
+
+html,body{
+    font-family:$font-family !important;
+    scroll-behavior:smooth;
+    padding:0 !important;
+}
+
+.wrap{
+    @each $name in $them-lang {
+        &.them-#{$name}{
+            @include them('them-'+$name);
+        }
+    }
+    .container{
+        max-width:$container;
+    }
+    ul{
+        padding: 0px;
+        margin: 0px;
+        li{
+            list-style: none;
+
+            padding: 0px;
+        }
+    }
+    p{
+        margin-bottom: 0;
+    }
+    a{
+        text-decoration: none;
+        &:hover{
+            color: white;
+        }
+    }
+}
+
+main{
+    h1{
+        font-weight: bold;
+        color: map-get($index-group,'h1-title-color');
+        padding: 0px 0 60px 0;
+        @include font-size($h1-font-sizes, 'tw');
+        @include media-max(md){
+            padding: 0px 0 32px 0;
+        }
+        @include media-max(xs){
+            padding: 32px 0 20px 0;
+        }
+    }
+    h2{
+        font-size: 42px;
+        line-height: 63px;
+        margin-bottom: 0;
+    }
+    h3{
+        font-size: 32px;
+        line-height: 48px;
+        margin-bottom: 0;
+    }
+}
+
+section{
+    padding: 64px 0 80px 0;
+    @include media-max(md){
+        padding: 40px 0 40px 0;
+    }
+    @include media-max(xs){
+        padding: 32px 0 32px 0;
+    }
+}
+
+//example: bg-color | text-color | border-color
+@each $name, $color in $color-group  {
+    .bg-#{$name}{
+        background:$color !important;
+    }
+    .text-#{$name}{
+        color:$color !important;
+    }
+    .border-#{$name}{
+        border:1px solid $color !important;
+    }
+}
+

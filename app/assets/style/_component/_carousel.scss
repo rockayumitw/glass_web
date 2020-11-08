@@ -1,0 +1,44 @@
+.carousel{
+    overflow:hidden;
+
+    background: url(map-get($banner-group,'slider-home-image-pc'));
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+
+    min-height: 840px;
+    display: flex;
+    align-items: center;
+    @include media-max(sm){
+        min-height: 394px;
+    }
+    .content{
+        color: map-get($index-group,'slider-text-color');
+        .sub-title{
+            font-size: 36px;
+            line-height: 54px;
+            @include media-max(md){
+                font-size: 30px;
+                line-height: 20px;
+            }
+            @include media-max(xs){
+                font-size: 16px;
+                line-height: 30px;
+            }
+        }
+        .slogan{
+            font-size: 64px;
+            line-height: 96px;
+            font-weight: bold;
+            @include media-max(md){
+                font-size: 48px;
+                line-height: 72px;
+            }
+            @include media-max(xs){
+                font-size: 32px;
+                line-height: 30px;
+            }
+        }
+    }
+}

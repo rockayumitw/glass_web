@@ -1,0 +1,171 @@
+// $random:"?"+random(10000);
+
+// 預設顏色及圖片
+// $default-img:'../../assets/pic-default.jpg';
+
+// 共用 -內寬度
+$container: 1110px;
+
+// 字體,陰影
+$font-family: "Roboto", sans-serif;
+// $font-Style:"Microsoft JhengHei";
+$shadow:rgba(0,40,62,0.5);
+
+// them-語系
+// example: them-TW | them-EN
+$them-lang:'TW','JP','EN','CN','KO';
+
+// 共用color
+// example: bg-color | text-color | border-color
+$color-group:(
+  'primary': #AA0601,
+  'secondary': #FBF2F2,
+  'third': #111619,
+  'dark':#000000,
+  'white':#ffffff,
+  'special-background-color':#AA06010D,
+);
+
+// 共用 -header
+$header-group:(
+    'background-color': map-get($color-group,'primary'),
+    'text-normal-color':#fff,
+    'border-color':#fff,
+);
+
+// 共用 -footer 
+$footer-group:(
+    'background-color':map-get($color-group,'primary'),
+    'text-normal-color':#fff,
+);
+
+// slider -圖片
+$banner-group:(
+    'slider-home-image-pc':'/assets/images/banner.png',
+    'slider-home-image-sm':'/assets/images/banner-sm.png',
+    'slider-inner-image-1':'/assets/images/banner-1.png',
+    'slider-inner-image-2':'/assets/images/banner-2.png',
+    'slider-inner-location-banner':'/assets/images/qa.png',
+);
+
+// 首頁
+$index-group:(
+    'section-cooperation-product':'/assets/images/bg.png',
+    'slider-text-color':#650300,
+    'h1-title-color':#650300,
+    'item-feature-title-color':#650300,
+    'product-name-color-lg':#AA0601,
+    'product-name-color-xs':#fff,
+    'content-color':#000000,
+    'content-border-color': #000000,
+    'card-title-color':#212529,
+);
+
+// 共用 -內頁
+$inner-group:(
+    'h2-title-color':#000,
+    'h3--sub-title-color':#000,
+    'sub-menu-border-color':#DCDCDC,
+    'sub-menu-active':#AA0601,
+    'sub-text-color':#000,
+    'product-text-disabled-color':#CED4DA,
+    'product-price-color':#AA0601,
+    'product-tag-1':#5F3E2D,
+    'product-tag-2':#B75929,
+    'input-border-color': #CED4DA,
+    'input-text-color':#495057,
+    'news-title':#650300,
+    'news-sub-title':#000,
+    'news-content-text':#555555,
+    'news-router-text':#000,
+    'news-now':#AA0601,
+    'news-tag': #AA0601,
+    'news-article-title':#000,
+);
+
+// inner-page
+$inner-pic:(
+    'location-pic-1':'/assets/images/locate1.jpeg',
+    'location-pic-2':'/assets/images/locate2.jpg',
+    'location-pic-3':'/assets/images/locate3.jpg',
+    'location-pic-4':'/assets/images/locate4.jpg',
+    'location-pic-5':'/assets/images/locate5.jpg',
+    'blog-1':'/assets/images/blog-1.png',
+    'blog-2':'/assets/images/blog-2.png',
+    'blog-3':'/assets/images/blog-3.png',
+    'blog-4':'/assets/images/blog-4.png',
+    'blog-5':'/assets/images/blog-5.png',
+    'product-1':'/assets/images/products-1.png',
+    'product-2':'/assets/images/products-2.png',
+    'product-3':'/assets/images/products-3.png',
+    'product-4':'/assets/images/products-4.png',
+    'product-5':'/assets/images/products-5.jpg',
+    'product-6':'/assets/images/products-6.jpg',
+    'product-7':'/assets/images/products-7.jpg',
+    'product-8':'/assets/images/products-8.jpg',
+    'product-9':'/assets/images/products-9.jpg',
+    'product-10':'/assets/images/products-10.jpg',
+    'product-11':'/assets/images/products-11.jpg',
+    'product-12':'/assets/images/products-12.jpg',
+);
+
+// 共用 -卡片
+$card-group:(
+    'card-title-color':#212529,
+    'card-tip-color':#707070,
+    'card-time-color':#707070,
+    'border-color':#CED4DA,
+);
+
+// 共用 -分頁
+$pagination-group: (
+    'background-active': #000000,
+    'background-normal': #F2F2F2,
+    'border-color':#555555,
+    'text-normal':#555555,
+    'text-active':#ffffff,
+);
+
+// btn
+$btn-group: (
+    'background':'',
+    'more':#650300,
+);
+
+
+// z-index
+$z-index: (
+  loading-intro :1031,
+  btn-search    : 10,
+  goTop         : 10,
+  loadingMask   : 9,
+  share-box     : 4,
+  price-box     : 4,
+  bookmark      : 4,
+  searchArea    : 3,
+  video         : 3,
+  dropdownMenu  : 2,
+  header        : 2,
+  footer        : 2,
+  squarebottom  : 2,
+  contentArea   : 1,
+  mask          : 1,
+);
+
+// for VB
+$breakpoints:(
+    xxs: 320.98px, // ios se5
+    xs : 575.98px, 
+    sm : 767.98px,
+    md : 991.98px,
+    lg : 1199.98px,
+    xl : 1399.98px,
+);
+
+// 動畫前綴
+$experimental-support-for-webkit: true;
+$experimental-support-for-mozilla: true;
+$experimental-support-for-opera: true;
+$experimental-support-for-microsoft: true;
+$experimental-support-for-khtml: false;
+
